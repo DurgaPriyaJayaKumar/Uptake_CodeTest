@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="30843" started-at="2018-01-12T01:41:47Z" finished-at="2018-01-12T01:42:18Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="30843" started-at="2018-01-12T01:41:47Z" finished-at="2018-01-12T01:42:18Z">
+      <class name="com.uptake.codingtest.testcases.NavigationTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uptake.codingtest.testcases.NavigationTest@18be83e4]" name="setUp" is-config="true" duration-ms="12330" started-at="2018-01-11T19:41:48Z" finished-at="2018-01-11T19:42:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToIndustriesTest()[pri:0, instance:com.uptake.codingtest.testcases.NavigationTest@18be83e4]" name="navigateToIndustriesTest" duration-ms="3032" started-at="2018-01-11T19:42:00Z" finished-at="2018-01-11T19:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToIndustriesTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.uptake.codingtest.testcases.NavigationTest@18be83e4]" name="closeBrowser" is-config="true" duration-ms="405" started-at="2018-01-11T19:42:03Z" finished-at="2018-01-11T19:42:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.uptake.codingtest.testcases.NavigationTest@18be83e4]" name="setUp" is-config="true" duration-ms="10414" started-at="2018-01-11T19:42:03Z" finished-at="2018-01-11T19:42:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="navigateToProductsTest()[pri:0, instance:com.uptake.codingtest.testcases.NavigationTest@18be83e4]" name="navigateToProductsTest" duration-ms="4148" started-at="2018-01-11T19:42:14Z" finished-at="2018-01-11T19:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToProductsTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.uptake.codingtest.testcases.NavigationTest@18be83e4]" name="closeBrowser" is-config="true" duration-ms="458" started-at="2018-01-11T19:42:18Z" finished-at="2018-01-11T19:42:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.uptake.codingtest.testcases.NavigationTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
