@@ -11,6 +11,12 @@ import com.uptake.codingtest.pages.HomePage;
 public class NavigationTest extends TestBase {
 
 	public HomePage homePage;
+	
+	public NavigationTest() {
+		super();
+		System.out.println("Navigationtest constructor");
+	}
+	
 
 	@BeforeMethod
 	public void setUp() {
@@ -23,13 +29,14 @@ public class NavigationTest extends TestBase {
 	}
 
 	@Test
-	public void navigateToProductsTest() {
+	public void navigateToProductsTest() throws InterruptedException {
 		String title1 = homePage.navigateToProductsPage();
-		Assert.assertEquals(title1, "Predictive Analytics Solutions for Global Industry | Uptake");
+		Thread.sleep(1000);
+		Assert.assertEquals(title1,"Predictive Analytics Solutions for Global Industry | Uptake" );
 		String title2 = homePage.navigateToHomePage();
-		Assert.assertEquals(title2, "Industrial Analytics for Global Industry | Uptake");
+		Assert.assertEquals(title2,"Industrial Analytics for Global Industry | Uptake" );
 	}
-
+/*
 	@Test
 	public void navigateToIndustriesTest() {
 		String title3 = homePage.navigateToIndustriesPage();
@@ -37,7 +44,7 @@ public class NavigationTest extends TestBase {
 		String title4 = homePage.navigateToHomePage();
 		Assert.assertEquals(title4, "Industrial Analytics for Global Industry | Uptake");
 	}
-
+*/
 	@AfterMethod
 	public void closeBrowser() {
 		driver.quit();

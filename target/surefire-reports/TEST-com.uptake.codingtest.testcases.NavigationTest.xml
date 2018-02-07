@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="2" failures="0" name="com.uptake.codingtest.testcases.NavigationTest" time="6.299" errors="0" skipped="0">
+<testsuite tests="1" failures="1" name="com.uptake.codingtest.testcases.NavigationTest" time="4.581" errors="0" skipped="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_144\jre\bin"/>
@@ -27,9 +27,9 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="user.variant" value=""/>
     <property name="os.name" value="Windows 10"/>
-    <property name="classworlds.conf" value="C:\SelAuto\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8759585645651051560.tmp"/>
+    <property name="classworlds.conf" value="C:\SelAuto\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf7245917634525737602.tmp"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Python27\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\SelAuto\geckodriver-v0.19.0-win64;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Durga\AppData\Local\Programs\Python\Launcher\;C:\Users\Durga\AppData\Local\Microsoft\WindowsApps;;C:\Users\Durga\AppData\Local\Microsoft\WindowsApps;C:\Users\Durga\Desktop;;C:\Program Files (x86)\HP\Unified Functional Testing\\bin64;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_144\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_151/bin/server;C:/Program Files/Java/jre1.8.0_151/bin;C:/Program Files/Java/jre1.8.0_151/lib/amd64;C:\ProgramData\Oracle\Java\javapath;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Skype\Phone\;C:\HashiCorp\Vagrant\bin;C:\Python27\;C:\Program Files (x86)\HP\Unified Functional Testing\bin;C:\SelAuto\geckodriver-v0.19.0-win64;C:\Program Files\Git\cmd;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Java\jdk1.8.0_144\bin;C:\Users\Durga\AppData\Local\Programs\Python\Launcher\;C:\Users\Durga\AppData\Local\Microsoft\WindowsApps;;C:\Users\Durga\AppData\Local\Microsoft\WindowsApps;C:\Users\Durga\Desktop;;C:\Program Files (x86)\HP\Unified Functional Testing\\bin64;."/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
@@ -40,11 +40,11 @@
     <property name="java.specification.version" value="1.8"/>
     <property name="file.encoding" value="Cp1252"/>
     <property name="user.name" value="Durga"/>
-    <property name="java.class.path" value="/C:/Users/Durga/eclipse/java-oxygen/eclipse/../../../.p2/pool/plugins/org.eclipse.m2e.maven.runtime_1.8.0.20170516-2042/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.class.path" value="C:\Users\Durga\.p2\pool\plugins\org.eclipse.m2e.maven.runtime_1.8.2.20171007-0216\jars\plexus-classworlds-2.5.2.jar"/>
     <property name="java.vm.specification.version" value="1.8"/>
     <property name="sun.arch.data.model" value="64"/>
     <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_144\jre"/>
-    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B clean install"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="user.language" value="en"/>
     <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
@@ -61,6 +61,47 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="com.uptake.codingtest.testcases.NavigationTest" name="navigateToIndustriesTest" time="2.698"/>
-  <testcase classname="com.uptake.codingtest.testcases.NavigationTest" name="navigateToProductsTest" time="3.601"/>
+  <testcase classname="com.uptake.codingtest.testcases.NavigationTest" name="navigateToProductsTest" time="4.581">
+    <failure message="expected [Industrial Analytics for Global Industry | Uptake] but found [Predictive Analytics Solutions for Global Industry | Uptake]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Industrial Analytics for Global Industry | Uptake] but found [Predictive Analytics Solutions for Global Industry | Uptake]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.uptake.codingtest.testcases.NavigationTest.navigateToProductsTest(NavigationTest.java:37)
+</failure>
+    <system-out>Configuring TestNG with: org.apache.maven.surefire.testng.conf.TestNG652Configurator@1edf1c96
+inside super constructor
+Navigationtest constructor
+https://www.uptake.com/
+inside super constructor
+</system-out>
+    <system-err>1518029945870	geckodriver	INFO	geckodriver 0.19.1
+1518029945882	geckodriver	INFO	Listening on 127.0.0.1:36856
+1518029947014	mozrunner::runner	INFO	Running command: &quot;C:\\Program Files\\Mozilla Firefox\\firefox.exe&quot; &quot;-marionette&quot; &quot;-profile&quot; &quot;C:\\Users\\Durga\\AppData\\Local\\Temp\\rust_mozprofile.zqpvreUYYlzC&quot;
+1518029949094	Marionette	INFO	Enabled via --marionette
+Unable to read VR Path Registry from C:\Users\Durga\AppData\Local\openvr\openvrpaths.vrpath
+[Parent 11756, Gecko_IOThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+Unable to read VR Path Registry from C:\Users\Durga\AppData\Local\openvr\openvrpaths.vrpath
+[Child 48660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+[Child 48660, Chrome_ChildThread] WARNING: pipe error: 109: file z:/build/build/src/ipc/chromium/src/chrome/common/ipc_channel_win.cc, line 346
+1518029951430	Marionette	INFO	Listening on port 50360
+1518029951685	Marionette	WARN	TLS certificate errors will be ignored for this session
+1518029952134	Marionette	DEBUG	Register listener.js for window 4294967297
+Feb 07, 2018 12:59:12 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+1518029955868	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;about:blank&quot;
+1518029956594	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;about:blank&quot;
+1518029956594	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;about:blank&quot;
+1518029957410	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.uptake.com/&quot;
+1518029960866	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.uptake.com/&quot;
+1518029961277	Marionette	DEBUG	Received DOM event &quot;beforeunload&quot; for &quot;https://www.uptake.com/&quot;
+1518029961748	Marionette	DEBUG	Received DOM event &quot;pagehide&quot; for &quot;https://www.uptake.com/&quot;
+1518029961750	Marionette	DEBUG	Received DOM event &quot;unload&quot; for &quot;https://www.uptake.com/&quot;
+1518029962529	Marionette	DEBUG	Received DOM event &quot;DOMContentLoaded&quot; for &quot;https://www.uptake.com/products&quot;
+1518029964296	Marionette	DEBUG	Received DOM event &quot;pageshow&quot; for &quot;https://www.uptake.com/products&quot;
+1518029965557	Marionette	DEBUG	Canceled page load listener because no navigation has been detected
+</system-err>
+  </testcase>
 </testsuite>

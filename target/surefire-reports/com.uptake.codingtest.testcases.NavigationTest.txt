@@ -1,4 +1,14 @@
 -------------------------------------------------------------------------------
 Test set: com.uptake.codingtest.testcases.NavigationTest
 -------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 30.998 sec
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 32.571 sec <<< FAILURE!
+navigateToProductsTest(com.uptake.codingtest.testcases.NavigationTest)  Time elapsed: 4.581 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Industrial Analytics for Global Industry | Uptake] but found [Predictive Analytics Solutions for Global Industry | Uptake]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+	at org.testng.Assert.assertEquals(Assert.java:118)
+	at org.testng.Assert.assertEquals(Assert.java:453)
+	at org.testng.Assert.assertEquals(Assert.java:463)
+	at com.uptake.codingtest.testcases.NavigationTest.navigateToProductsTest(NavigationTest.java:37)
+

@@ -8,7 +8,6 @@
           <include name="navigateToProductsTest"/>
           <include name="closeBrowser"/>
           <include name="setUp"/>
-          <include name="navigateToIndustriesTest"/>
         </methods>
       </class> <!-- com.uptake.codingtest.testcases.NavigationTest -->
     </classes>
